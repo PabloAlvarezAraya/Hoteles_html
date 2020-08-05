@@ -1,0 +1,298 @@
+body{
+    background:#0F4732;
+    margin: 1px;
+    font-family: Verdana;
+}
+
+p{
+
+    font-size: 12px;
+    color: #333;
+    margin:6px;
+}
+
+.limpiar{
+    clear: both;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 20px;
+    color: #333;
+    margin:6px;
+}
+
+#contenedor{
+    width: 800px;
+    margin: auto; /*Centra el documento */
+    background: #fff;
+    border: #FFF 1px solid;  
+    padding: 0px;
+}
+
+#logo{
+    width: 55%;
+    height: 84px;
+    float: right;
+}
+
+#cabecera{
+    height: 90px;    
+}
+
+/*Menu*/
+#menu{    
+    height: 30px;
+    background-color: #0F4732;
+}
+
+#menu ul{
+    margin: auto;
+    padding: 0;
+    height: 30px;
+    list-style: none;
+    width: 70%;
+    display: block;
+    background: #0F4732;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a{
+    display: block;
+    line-height: 30px; /*interlineado*/
+    padding: 0 10px;
+    border-right: 2px solid #fff;
+    font-family: Arial;
+    font-size: 15px;
+    color: #fff;    
+    text-decoration: none; /*quita subrayado*/
+}
+
+#menu li a:hover{
+    background-color: #C31410;
+}
+
+/***CUERPO**/
+#cuerpo{
+    background-color: #FFF;
+}
+.tiulo{
+    display: block;
+    font-size: 25px;
+    color: #6d6d6d;
+    font-weight: bolder;
+    float: right;
+}
+
+.cajas{     
+    padding: 1px 0px;
+    background-color: #fff;
+
+}
+
+#cajapresentacion {
+    width: 470px;
+    float: left;
+
+}
+
+#cajapresentacion {
+    font-size: 40px;
+    color: #ff3005;
+    font-weight: normal;
+
+
+}
+
+#banner {
+    width: 440px;
+    margin: 0;	
+}
+
+/*proyectos*/
+
+
+.caja-proyecto{
+    width: 200px;
+    float: left;     
+    padding-top: 31px;
+    padding-right: 31px;
+    padding-left: 31px; 
+    background-color: #fff;
+    border:  1px solid #fff;
+}
+
+.caja-proyecto-sm{
+    width: 200px;
+    float: left;     
+    padding-top: 16px;
+    margin-right: 0px;
+    background-color: #fff;
+}
+
+.caja-proyecto h2, .caja-proyecto-sm h2{    
+    font-size: 14px;
+    color: #464646;
+    margin: 6px;
+    background-color: #fff;
+}
+
+.caja-proyecto a, .caja-proyecto-sm a{
+    color: #848484;
+    text-decoration: none; /*quita extras a los links*/
+    background-color: #fff;
+}
+
+td{
+    padding: 20px 20px 20px;
+    text-align: justify;
+}
+
+.titta{
+    padding: 20px 20px 20px;
+    text-align: center;
+    font-size:  20px;
+    font-weight: bolder;    
+}
+
+.cajass{
+    background-color: #FFF;
+    height: 230px;
+}
+
+/* footer*/
+
+.footer{
+    background: #0F4732;
+    height: 300px;
+}
+
+#logof{
+    margin: 0;
+    padding: 20px 47% 20px;
+
+}
+
+#menuf{    
+    height: 30px;
+    background-color: #0F4732;
+}
+
+#menuf ul{
+    margin: auto;
+    padding: 0;
+    height: 30px;
+    list-style: none;
+    width: 70%;
+    display: block;
+    background: #0F4732;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#menuf li {
+    float: left;
+}
+
+#menuf li a{
+    display: block;
+    line-height: 30px; /*interlineado*/
+    padding: 0 10px;
+    border-right: 2px solid #fff;
+    font-family: Arial;
+    font-size: 15px;
+    color: #fff;    
+    text-decoration: none; /*quita subrayado*/
+}
+
+#menuf li a:hover{
+    background-color: #C31410;
+}
+
+.social{
+    background-color:#0F4732;
+    margin: 0
+}
+/* social*/
+
+#menus{    
+    height: 50px;
+    background-color: #0F4732;
+
+}
+
+#menus ul{
+    margin: auto;    
+    height: 30px;
+    list-style: none;
+    width: 10%;
+    display: block;
+    background: #0F4732;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+#menus li {
+    margin: 0;  
+    float: left;   
+}
+
+.cfirma{
+    padding-left: 80px;
+    width: 400px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 15px;
+    }
+    #contenedor{
+        width: 95%;
+        padding: 2%;
+    }
+
+    #cabecera{
+        height: auto;
+    }
+
+    #logo{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    #cabecera ul{
+        display: none;
+    }
+
+    #menu ul{
+        float: none;
+        margin: auto;
+    }
+
+    #cajappresentacion{
+        width: 100%;
+        float: none;
+    }
+
+    #piepagina{
+        width: 100%;
+    }
+
+    #banner{
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+    }
+}
